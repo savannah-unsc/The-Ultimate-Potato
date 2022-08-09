@@ -1,0 +1,86 @@
+*{
+margin: 0;
+overflow-x: hidden;
+}
+body{
+background-image:url(../imagens/verde.jpg);
+background-size: 100vw;
+background-attachment: fixed;
+font-family: Century Gothic, Arial, sans-serif;
+color: #FFF;
+}
+
+#corpo{
+height: auto;
+width: 100vw;
+display: grid;
+grid-template-columns: 15vw 25vw 2vw 43vw 15vw;
+grid-template-rows: 20vh auto;
+}
+
+#header{
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 1;
+grid-column-end: 6;
+}
+
+#pics{
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 2;
+grid-column-end: 3;
+}
+
+#bloctxt{
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 4;
+grid-column-end: 5;
+}
+
+#pics2{
+grid-row-start: 3;
+grid-row-end: 4;
+grid-column-start: 2;
+grid-column-end: 3;
+}
+
+#bloctxt2{
+grid-row-start: 3;
+grid-row-end: 4;
+grid-column-start: 4;
+grid-column-end: 5;
+}
+
+#pics3{
+grid-row-start: 4;
+grid-row-end: 5;
+grid-column-start: 2;
+grid-column-end: 3;
+}
+
+#bloctxt3{
+grid-row-start: 4;
+grid-row-end: 5;
+grid-column-start: 4;
+grid-column-end: 5;
+}
+
+#btn_voltar{
+padding: 1.5vh 2.5vw;
+background-color: #58D68D;
+border: 0px solid #0000;
+color: #FFF;
+text-decoration: none;
+border-radius: 15px;
+transition: 0.3s;
+}
+#btn_voltar:hover{
+background-color: #28B463;
+}
+
+.pic{
+width: 25vw;
+border-radius: 7.5px;
+}

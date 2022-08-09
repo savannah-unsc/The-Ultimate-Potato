@@ -1,0 +1,76 @@
+*{
+margin: 0;
+}
+body{
+background-color: #F6DDCC;
+font-family: Century Gothic, Arial, sans-serif;
+color: #FFF;
+}
+#corpo{
+height: 100vh;
+width: 100vw;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+#bloco1{
+background-image: url(../imagens/vermelho.jpg);
+background-size: 100vh;
+/* background-color: #E74C3C; */
+}
+#bloco2{
+background-image: url(../imagens/verde.jpg);
+background-size: 100vh;
+/* background-color: #2ECC71; */
+}
+#bloco3{
+background-image: url(../imagens/azul.png);
+background-size: 100vh;
+/* background-color: #3498DB; */
+}
+h1{
+margin-left: 2.5vw;
+margin-top: 40vh;
+}
+p{
+margin-left: 2.5vw;
+margin-right: 2.5vw;
+}
+#btn_b1{
+margin-left: 2.5vw;
+background-color: #EC7063;
+padding: 2vh 1.5vw;
+border: 0px solid #0000;
+color: #FFF;
+text-decoration: none;
+border-radius: 15px;
+transition: 0.3s;
+}
+#btn_b1:hover{
+background-color: #CB4335;
+}
+#btn_b2{
+margin-left: 2.5vw;
+background-color: #58D68D;
+padding: 2vh 1.5vw;
+border: 0px solid #0000;
+color: #FFF;
+text-decoration: none;
+border-radius: 15px;
+transition: 0.3s;
+}
+#btn_b2:hover{
+background-color: #28B463;
+}
+#btn_b3{
+margin-left: 2.5vw;
+background-color: #5DADE2;
+padding: 2vh 1.5vw;
+border: 0px solid #0000;
+color: #FFF;
+text-decoration: none;
+border-radius: 15px;
+transition: 0.3s;
+}
+#btn_b3:hover{
+background-color: #2E86C1;
+}

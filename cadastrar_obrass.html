@@ -1,0 +1,66 @@
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cssobras.css">
+<title> Musarte | Cadastrar Obras </title>
+</head>
+<body>
+<br>
+
+       <form action="listagem_musarte.php" method="post">
+		    <button id="voltar" type="submit" style="font-size: medium;"> Listar obras </button>
+       </form>
+ <br>
+  <center> <a class href="index.html" id="voltar">Voltar à página</a> </center>
+
+   <h1 class="titulo">Cadastrar</h1>
+
+	<br>
+
+		<form action="cadastrar_obras.php" method="post">
+
+		  <input type="text" class="texto" name="nome" placeholder="Nome da Obra" required> <br> <br>
+
+		  <input type="text" class="texto" name="artista" placeholder="Artista" required> <br> <br>
+
+		  <input type="text" class="texto" name="ano" placeholder="Ano" required> <br> <br>
+
+		  <input type="text" class="texto" name="estilo" placeholder="Estilo ou Movimento" required> <br> <br>
+
+		  <form action="grava.php" method="POST" enctype="multipart/form-data">
+		  <label> Imagem: </label> <br> <br>
+		  <input type="file" id="img" name="imagem" required> <br>
+
+		  <br> <br>
+
+		  <center>
+		     <button type="submit" class="botao"> Cadastrar </button>
+			 <input type="reset" name="cancelar" value="Cancelar" class="botao">
+		  </center>
+	   </form>
+	   </form>
+
+	</div>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

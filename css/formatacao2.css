@@ -1,0 +1,23 @@
+*{
+margin: 0;
+}
+body{
+background-image: url(../imagens/vermelho.jpg);
+background-size: 100vw;
+color: #FFF;
+font-family: century gothic;
+}
+#corpo{
+display: grid;
+grid-template-columns: 10vw 80vw 10vw;
+}
+#voltar{
+color: #FFF;
+text-decoration: none;
+padding: 0.5vh 1vw;
+background-color: #EC7063;
+transition: 0.3s;
+}
+#voltar:hover{
+background-color: #CB4335;
+}
